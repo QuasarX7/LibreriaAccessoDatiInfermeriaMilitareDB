@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package it.difesa.esercito.rav17.infermeria.DaseDati;
+package it.quasar_x7.infermeria.DaseDati;
 
 import it.quasar_x7.java.BaseDati.Attributo;
 import it.quasar_x7.java.BaseDati.EccezioneBaseDati;

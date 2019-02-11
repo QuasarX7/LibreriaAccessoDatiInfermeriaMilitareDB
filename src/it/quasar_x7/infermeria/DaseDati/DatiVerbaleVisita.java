@@ -1,5 +1,5 @@
 
-package it.difesa.esercito.rav17.infermeria.DaseDati;
+package it.quasar_x7.infermeria.DaseDati;
 
 import it.quasar_x7.java.BaseDati.Attributo;
 import it.quasar_x7.java.BaseDati.DatoDataOraria;
@@ -279,7 +279,7 @@ public class DatiVerbaleVisita extends Dati{
                     modelloML.nome(),militare.nome(),//from
                     modelloML.nome(),modelloML.nomeAttributo(3),
                     d.stampaGiornoInverso(), // #data_di_oggi#
-                    modelloML.nome(),modelloML.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MODELLO_ML.CONVALESCENZA),
+                    modelloML.nome(),modelloML.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MODELLO_ML.CONVALESCENZA),
                     modelloML.nome(), modelloML.nomeAttributo(0),  militare.nome(), militare.nomeAttributo(0),
                     modelloML.nome(), modelloML.nomeAttributo(1),  militare.nome(), militare.nomeAttributo(1),
                     modelloML.nome(), modelloML.nomeAttributo(2),  militare.nome(), militare.nomeAttributo(2)
@@ -309,7 +309,7 @@ public class DatiVerbaleVisita extends Dati{
                     modelloML.nome(),militare.nome(),//from
                     modelloML.nome(),modelloML.nomeAttributo(3),
                     d.stampaGiornoInverso(), // #data_di_oggi#
-                    modelloML.nome(),modelloML.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MODELLO_ML.AMMALATO),
+                    modelloML.nome(),modelloML.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MODELLO_ML.AMMALATO),
                     modelloML.nome(), modelloML.nomeAttributo(0),  militare.nome(), militare.nomeAttributo(0),
                     modelloML.nome(), modelloML.nomeAttributo(1),  militare.nome(), militare.nomeAttributo(1),
                     modelloML.nome(), modelloML.nomeAttributo(2),  militare.nome(), militare.nomeAttributo(2)
@@ -372,7 +372,7 @@ public class DatiVerbaleVisita extends Dati{
                     modelloML.nome(),militare.nome(),//from
                     modelloML.nome(),modelloML.nomeAttributo(3),
                     d.stampaGiornoInverso(), // #data_di_oggi#
-                    modelloML.nome(),modelloML.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MODELLO_ML.VISITA_PERIODICA),
+                    modelloML.nome(),modelloML.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MODELLO_ML.VISITA_PERIODICA),
                     
                     modelloML.nome(), modelloML.nomeAttributo(0),  militare.nome(), militare.nomeAttributo(0),
                     modelloML.nome(), modelloML.nomeAttributo(1),  militare.nome(), militare.nomeAttributo(1),

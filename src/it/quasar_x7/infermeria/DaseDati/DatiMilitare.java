@@ -1,4 +1,4 @@
-package it.difesa.esercito.rav17.infermeria.DaseDati;
+package it.quasar_x7.infermeria.DaseDati;
 
 
 import it.quasar_x7.java.BaseDati.Attributo;
@@ -154,13 +154,13 @@ public class DatiMilitare extends Dati {
                     + "WHERE `%s` = '%s' "
                     + "ORDER BY `%s`",
                     //SELECT
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.COMPAGNIA),
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.COMPAGNIA),
                     //FROM
                     militare.nome(),
                     //WHERE
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.CORSO),corso,
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.CORSO),corso,
                     //OLDER BY
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.COMPAGNIA));
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.COMPAGNIA));
             
            Attributo[] colonna = {
                new Attributo("compagnia",STRINGA_50,false)
@@ -541,10 +541,10 @@ public class DatiMilitare extends Dati {
                     + "FROM `%s` "
                     + "WHERE `%s` = '%s' AND `%s` IS NOT NULL AND `%s` <> '' ",
                     militare.nome(),//from
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.DATA_GML),
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.DATA_GML),
                     giorno.stampaGiornoInverso(),
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.GML),
-                    militare.nomeAttributo(it.difesa.esercito.rav17.infermeria.DaseDati.BASE_DATI.MILITARE.GML)
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.GML),
+                    militare.nomeAttributo(it.quasar_x7.infermeria.DaseDati.BASE_DATI.MILITARE.GML)
                     );
             Attributo[] dati = {
                 new Attributo("count(*)",new FunzioneSQL(1),false)

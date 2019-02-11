@@ -1,4 +1,4 @@
-package it.difesa.esercito.rav17.infermeria.DaseDati;
+package it.quasar_x7.infermeria.DaseDati;
 
 
 import it.quasar_x7.java.BaseDati.EccezioneBaseDati;
